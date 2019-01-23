@@ -12,7 +12,7 @@
 	<atom:link href="https://netscix2020tokyo.github.io/index.php/feed/" rel="self" type="application/rss+xml" />
 	<link>https://netscix2020tokyo.github.io/</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Mon, 21 Jan 2019 15:49:26 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Jan 2019 16:51:28 +0000</lastBuildDate>
 	<language>ja</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -25,8 +25,8 @@
 		<dc:creator><![CDATA[netscix2020tokyo]]></dc:creator>
 				<category><![CDATA[未分類]]></category>
 
-		<guid isPermaLink="false">https://netscix2020tokyo.github.io/?p=1</guid>
-		<description><![CDATA[WordPress へようこそ。こちらは最初の投稿です。編集または削除し、コンテンツ作成を始めてください。]]></description>
+		<guid isPermaLink="false">http://3.8.154.77/?p=1</guid>
+		<description><![CDATA[WordPress へようこそ。こちらは最初の投稿です。編集または削除し、コンテンツ作成を始めてくだ [&#8230;]]]></description>
 				<content:encoded><![CDATA[
 <p>WordPress へようこそ。こちらは最初の投稿です。編集または削除し、コンテンツ作成を始めてください。</p>
 ]]></content:encoded>

@@ -4330,3 +4330,25 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+.navigation-top .custom-logo-link {
+ display:none;
+ float:left;
+}
+/*.site-branding .custom-logo-link {
+ display:none;
+}*/
+.site-navigation-fixed .custom-logo-link {
+display:block;
+}
+
+/*make the logo in the navigation smaller*/
+.site-navigation-fixed .custom-logo {
+width: 10rem;
+}
+
+/*.site-navigation-fixed instead of .navigation-top*/
+.site-navigation-fixed #site-navigation{
+ clear:none;
+ float:left;
+}

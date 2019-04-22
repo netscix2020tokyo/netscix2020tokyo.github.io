@@ -34,11 +34,6 @@ img.emoji {
 </style>
 <link rel='stylesheet' id='wp-block-library-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-block-library-theme-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dist/block-library/theme.min.css?ver=5.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-components-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dist/components/style.min.css?ver=5.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&#038;ver=5.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-nux-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dist/nux/style.min.css?ver=5.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-editor-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dist/editor/style.min.css?ver=5.0.4' type='text/css' media='all' />
-<link rel='stylesheet' id='block-robo-gallery-style-css-css'  href='https://netscix2020tokyo.github.io/wp-content/plugins/robo-gallery/includes/extensions/block/dist/blocks.style.build.css?ver=2.8.23' type='text/css' media='all' />
 <link rel='stylesheet' id='menu-image-css'  href='https://netscix2020tokyo.github.io/wp-content/plugins/menu-image/menu-image.css?ver=1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='dashicons-css'  href='https://netscix2020tokyo.github.io/wp-includes/css/dashicons.min.css?ver=5.0.4' type='text/css' media='all' />
 <link rel='stylesheet' id='obfx-module-pub-css-menu-icons-0-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=2.7.3' type='text/css' media='all' />
@@ -236,7 +231,7 @@ body.home .site-title a:after {
 }
 
 body.home .site-description:after {
-	content: "~Network and Innovation~\A\AJanuary 20-23, 2020\A International Conference Center\AWaseda University \ATokyo, Japan\AHosted by Waseda Innovation Lab";
+	content: "~Networks and Innovation~\A\AJanuary 20-23, 2020\A International Conference Center\AWaseda University \ATokyo, Japan\AHosted by Waseda Innovation Lab";
 	filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
 	font-weight: 800;
   line-height: 1.25;
@@ -271,30 +266,50 @@ background-color:white;
 padding: 0em 0 0; 
 }
 .wrap {
-	max-width: 100%;
+	max-width: 80%;
 }
  
 @media screen and (min-width: 48em) {
 	.wrap {
-		max-width: 100%;
+		max-width: 80%;
 	}
 }
 
 /* To hide site-title in non-main pages */
 .page.page-one-column:not(.twentyseventeen-front-page) #primary {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 @media screen and (min-width: 30em) {
 	.page-one-column .panel-content .wrap {
-		max-width: 100%;
+		max-width: 80%;
 	}
 }
 
 /* Set the style of text in the speaker's headshots */
 figcaption strong {
  font-size:1.2em;
-}		</style>
+}
+
+/* To change the colour of hyperlinked text */
+.entry-content a, .entry-summary a, .comment-content a, .widget a, .site-footer .widget-are.wp-block-columns.w-two-one {} .wp-block-columns.w-two-one .wp-block-column { flex-basis: 33.3%; margin-left: 0; } .wp-block-columns.w-two-one .wp-block-column:first-child { flex-basis: 66.6%; }a a, .posts-navigation a, .widget_authors a strong{
+color:#A80020;
+text-decoration: none;
+-webkit-box-shadow: inset 0 0px 0 rgba(15, 15, 15, 1);
+box-shadow: inset 0 0px 0 rgba(15, 15, 15, 1);	
+}
+
+/* For two columns*/
+.has-2-columns .wp-block-column:nth-of-type(1) {
+	  flex-basis: 100px;
+    margin-left: 0;
+}
+.has-2-columns .wp-block-column:nth-of-type(2) {
+	  flex-basis: 120px;
+    margin-left: 0;
+}
+
+		</style>
 	</head>
 
 <body class="home page-template-default page page-id-194 wp-custom-logo wp-embed-responsive twentyseventeen-front-page has-header-image page-one-column colors-light">
@@ -306,7 +321,7 @@ figcaption strong {
 		<div class="custom-header">
 
 		<div class="custom-header-media">
-			<div id="wp-custom-header" class="wp-custom-header"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net.png" width="2000" height="1362" alt="" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net.png 2000w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-300x204.png 300w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-768x523.png 768w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1024x697.png 1024w" sizes="100vw" /></div>		</div>
+			<div id="wp-custom-header" class="wp-custom-header"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1.png" width="2000" height="1120" alt="" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1.png 2000w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-300x168.png 300w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-768x430.png 768w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-1024x573.png 1024w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-24x13.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-36x20.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/02/cropped-hokusai-net-1-48x27.png 48w" sizes="100vw" /></div>		</div>
 
 	<div class="site-branding">
 	<div class="wrap">
@@ -333,7 +348,6 @@ figcaption strong {
 	<div class="menu-menue-container"><ul id="top-menu" class="menu"><li id="menu-item-486" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-486"><a class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Venue</span><svg class="icon icon-angle-down" aria-hidden="true" role="img"> <use href="#icon-angle-down" xlink:href="#icon-angle-down"></use> </svg></a>
 <ul class="sub-menu">
 	<li id="menu-item-509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="https://netscix2020tokyo.github.io/index.php/about-tokyo/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">About Tokyo</span></a></li>
-	<li id="menu-item-537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-537"><a href="https://www.waseda.jp/top/en/access/waseda-campus" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Transportation</span></a></li>
 	<li id="menu-item-748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="https://netscix2020tokyo.github.io/index.php/location-and-venue/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Conference venue</span></a></li>
 	<li id="menu-item-749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-749"><a href="https://netscix2020tokyo.github.io/index.php/accommodations/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Accommodations</span></a></li>
 </ul>
@@ -349,6 +363,7 @@ figcaption strong {
 </li>
 <li id="menu-item-566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-566"><a href="https://netscix2020tokyo.github.io/index.php/registration/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Registration</span></a></li>
 <li id="menu-item-750" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-750"><a href="https://netscix2020tokyo.github.io/index.php/organizers/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Organizers</span></a></li>
+<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="https://netscix2020tokyo.github.io/index.php/sponsors/" class="menu-image-title-after" data-ps2id-api="true"><span class="menu-image-title">Sponsors</span></a></li>
 </ul></div>
 			<a href="#content" class="menu-scroll-down"><svg class="icon icon-arrow-right" aria-hidden="true" role="img"> <use href="#icon-arrow-right" xlink:href="#icon-arrow-right"></use> </svg><span class="screen-reader-text">Scroll down to content</span></a>
 	</nav><!-- #site-navigation -->
@@ -375,7 +390,19 @@ figcaption strong {
 
 			<div class="entry-content">
 				
-<p class="has-medium-font-size">NetSci-X, the Network Science Society&#8217;s signature winter conference, will visit Tokyo, Japan in 2020. Bringing together leading researchers and innovators, NetSci-X 2020 will connect Japanese culture of innovation and hospitality with the novel perspectives of Network Science.</p>
+<div class="wp-block-columns has-2-columns">
+<div class="wp-block-column">
+<a href="https://twitter.com/NetSciX2020?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @NetSciX2020</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+
+
+<div class="wp-block-column"><a class="maxbutton-1 maxbutton maxbutton-contact-us" href="https://netscix2020tokyo.github.io/index.php/organizers#email-address"><span class='mb-text'>Contact us</span></a></div>
+</div>
+
+
+
+<p class="has-medium-font-size">NetSci-X, the <a href="https://netscisociety.net/home">Network Science Society</a>&#8216;s signature winter conference, will visit Tokyo, Japan in 2020. Bringing together leading researchers and innovators, NetSci-X 2020 will connect Japanese culture of innovation and hospitality with the novel perspectives of Network Science.</p>
 
 
 
@@ -391,7 +418,11 @@ figcaption strong {
 
 
 
-<p class="has-medium-font-size"><strong>Key dates</strong><br>July 16, 2019: Submission starts<br>September 30, 2019: Submission deadline<br>October 31, 2019: Acceptance notice to authors<br>November 15, 2019: Paper camera-ready due for the Proceedings Track<br>November 30, 2019: Early registration ends</p>
+<p><br></p>
+
+
+
+<p class="has-medium-font-size"><strong>Key dates</strong><br>July 1, 2019: Submission starts<br>September 30, 2019: Submission deadline<br>October 31, 2019: Acceptance notice to authors<br>November 15, 2019: Paper camera-ready due <br>November 30, 2019: Early registration ends</p>
 			</div><!-- .entry-content -->
 
 		</div><!-- .wrap -->
@@ -412,23 +443,23 @@ figcaption strong {
 
 			<div class="entry-content">
 				
-<p class="has-medium-font-size">NetSci-X Tokyo 2020 is generously supported by:</p>
+<p class="has-medium-font-size">NetSci-X 2020 is generously supported by:</p>
 
 
 
-<figure class="wp-block-image"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w200.gif" alt="" class="wp-image-585"/></figure>
+<figure class="wp-block-image is-resized"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2.png" alt="" class="wp-image-988" width="290" height="160" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2.png 1000w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2-300x167.png 300w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2-768x427.png 768w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2-24x13.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2-36x20.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/w1000-2-48x27.png 48w" sizes="(max-width: 290px) 100vw, 290px" /></figure>
 
 
 
-<figure class="wp-block-image is-resized"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1.png" alt="" class="wp-image-583" width="203" height="33" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1.png 203w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-24x4.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-36x6.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-48x8.png 48w" sizes="(max-width: 203px) 100vw, 203px" /></figure>
+<figure class="wp-block-image is-resized"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1.png" alt="" class="wp-image-583" width="288" height="47" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1.png 203w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-24x4.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-36x6.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/habitech_logo-1-48x8.png 48w" sizes="(max-width: 288px) 100vw, 288px" /></figure>
 
 
 
-<p>Think Lab</p>
+<p class="has-medium-font-size">Think Lab</p>
 
 
 
-<figure class="wp-block-image is-resized"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo.png" alt="" class="wp-image-594" width="208" height="42" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo.png 994w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-300x60.png 300w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-768x155.png 768w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-24x5.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-36x7.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-48x10.png 48w" sizes="(max-width: 208px) 100vw, 208px" /></figure>
+<figure class="wp-block-image is-resized"><img src="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo.png" alt="" class="wp-image-594" width="289" height="58" srcset="https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo.png 994w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-300x60.png 300w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-768x155.png 768w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-24x5.png 24w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-36x7.png 36w, https://netscix2020tokyo.github.io/wp-content/uploads/2019/04/cyber_agent_logo-48x10.png 48w" sizes="(max-width: 289px) 100vw, 289px" /></figure>
 
 
 
@@ -458,6 +489,8 @@ figcaption strong {
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
+<!--noptimize--><!--email_off--><style type='text/css'>.maxbutton-1.maxbutton.maxbutton-contact-us{position:relative;text-decoration:none;display:inline-block;vertical-align:middle;width:100px;height:28px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-width:0px;background-color:rgba(43, 144, 54, 1);-webkit-box-shadow:0px 0px 2px 0px #333;-moz-box-shadow:0px 0px 2px 0px #333;box-shadow:0px 0px 2px 0px #333}.maxbutton-1.maxbutton.maxbutton-contact-us:hover{background-color:rgba(255, 255, 255, 1);-webkit-box-shadow:0px 0px 2px 0px #333;-moz-box-shadow:0px 0px 2px 0px #333;box-shadow:0px 0px 2px 0px #333}.maxbutton-1.maxbutton.maxbutton-contact-us .mb-text{color:#fff;font-family:Courier New;font-size:13px;text-align:center;font-style:normal;font-weight:normal;padding-top:8px;padding-right:0px;padding-bottom:0px;padding-left:0px;line-height:1em;box-sizing:border-box;display:block;background-color:unset}.maxbutton-1.maxbutton.maxbutton-contact-us:hover .mb-text{color:#2b9036}
+</style><!--/email_off--><!--/noptimize-->
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*=#]:not([href=#])","autoSelectorMenuLinks":"true","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","layout":"vertical","offset":0,"highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","normalizeAnchorPointTargets":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};

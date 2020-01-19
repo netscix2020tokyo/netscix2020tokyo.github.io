@@ -223,7 +223,29 @@ ol{
   margin-left:1em;
 }
 
+/* To insert line breaks in the site title*/
+body.home .site-title a {font-size:0em;}
+body.home .site-title a:after{
+	content: "International school \A and Conference on \A Network Science";
+	white-space: pre;
+	font-size:30px;
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
+}
 
+body.home .site-description {font-size:0px;}
+body.home .site-description:after {
+	content: "~Networks and Innovation~\A\AJanuary 20-23, 2020\A International Conference Center\AWaseda University \ATokyo, Japan\AHosted by Waseda Innovation Lab";
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
+	font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+	white-space: pre;
+	color:white;
+	font-size:20px;
+	opacity:1;
+}
+
+@media only screen and (max-width: 979px) {
 /* To insert line breaks in the site title*/
 body.home .site-title a {font-size:0em;}
 body.home .site-title a:after{
@@ -245,6 +267,10 @@ body.home .site-description:after {
 	font-size:12px;
 	opacity:1;
 }
+     
+ 
+} /*デバイスの横幅が979px以下の場合*/
+
 body.has-header-image .site-description{
 	opacity:1;
 	margin-top:1em;
